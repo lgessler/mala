@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html style="height:100%">
+
+<head>
+  <title></title>
+  <%= require('../partials/head.html?raw') %>
+</head>
+
+<body class="d-flex flex-column h-100">
+  <%= require('../partials/nav.html?raw') %>
+
+  <%= name %>
+  <%= body %>
+  <img src="<%= require('../img/' + icon) %>">
+
+  <%= require('../partials/footer.html?raw') %>
+</body>
+
+</html>
