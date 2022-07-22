@@ -24,6 +24,42 @@
       If you have an application you'd like to add, or you want to submit a correction to an already-listed app, please see our <a href="https://github.com/lgessler/mala">GitHub page</a>.
     </p>
 
+    <hr>
+
+    <h5 class="title is-5">Classification Meanings</h6>
+    <h6 class="title is-6">Data Types</h6>
+    Apps are coarsely classified by supported data types. 
+    This is a statement about what the app is capable of representing internally, NOT what the app is capable of exporting/importing.
+    Recognized values are:
+    <ul>
+      <li><strong>tei</strong>: <a href="https://en.wikipedia.org/wiki/Text_Encoding_Initiative">TEI</a> XML</li>
+      <li><strong>tags</strong>: Annotations which are one-to-one aligned with tokens. Examples include POS tags and interlinear glosses.</li>
+      <li><strong>time-aligned</strong>: Time alignments between text/annotations and audio/video.</li>
+      <li><strong>span-labels</strong>: Spans (i.e., contiguous sets of tokens), which are NOT allowed to overlap or nest.</li>
+      <li><strong>nested-span-labels</strong>: Spans (i.e., contiguous sets of tokens), which MAY overlap or nest.</li>
+      <li><strong>constituency-tree</strong>: Constituency trees, e.g. for PTB-style syntax trees or Rhetorical Structure Theory trees.</li>
+      <li><strong>dependency-tree</strong>: Dependency trees, e.g. those used for Universal Dependencies treebanks.</li>
+      <li><strong>graph</strong>: Non-tree graph structures, e.g. for graph-based semantic representations like AMR or UCCA.</li>
+    </ul>
+
+    <br>
+
+    <h6 class="title is-6">Import/Export Formats</h6>
+    Apps are also coarsely classified by what formats they are capable of importing from and exporting to.
+    Recognized values are:
+    <ul>
+      <li><strong>plaintext</strong>: <a href="https://en.wikipedia.org/wiki/Text_Encoding_Initiative">TEI</a> XML</li>
+      <li><strong>proprietary</strong>: Some format which is not in wide use outside of the app, and is likely limited just to use within the app.</li>
+      <li><strong>csv</strong>: A comma- or tab-delimited format</li>
+      <li><strong>xml</strong>: Some XML format which may or may not be proprietary.</li>
+      <li><strong>json</strong>: Some JSON format which may or may not be proprietary.</li>
+      <li><strong>conllu</strong>: The <a href="https://universaldependencies.org/format.html">CoNLL-U format</a>.</li>
+      <li><strong>elan-xml</strong>: The XML format used by <a href="https://archive.mpi.nl/tla/elan">ELAN</a> save files.</li>
+      <li><strong>flex-xml</strong>: The XML format used in exports by <a href="https://software.sil.org/fieldworks/resources/tutorial/lexicon/">FieldWorks Lexicon Explorer</a>.</li>
+    </ul>
+    
+
+
 
 
   </section>
