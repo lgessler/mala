@@ -83,6 +83,7 @@ function DocumentList(props) {
         o.paperUrl = o.paperUrl ? <a href={o.paperUrl}>Paper</a> : '–'
         o.codeUrl = o.codeUrl ? <a href={o.codeUrl}>Code</a> : '–'
         o.dataTypes = o.dataTypes.join(", ")
+        o.keywords = o.keywords.join(", ")
     }
 
     return (
