@@ -11,7 +11,7 @@
   "exportFormats": ["proprietary"],
   "freeness": "open-source",
   "keywords": ["multilayer", "semantics", "coreference"],
-  "description": "Highly configurable general-purpose annotation platform focused on semantics with workflow management features and NLP model integration",
+  "description": "Highly configurable general-purpose annotation platform focused on semantics with workflow management features and NLP model integration.",
   "review": {
     "reviewer": null,
     "date": null,
