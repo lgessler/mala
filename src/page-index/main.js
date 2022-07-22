@@ -55,6 +55,14 @@ function DocumentList(props) {
             }
         },
         {
+            name: "description",
+            label: "Summary",
+            options: {
+                sort: false,
+                filter: true
+            }
+        },
+        {
             name: "keywords",
             label: "Keywords",
             options: {
