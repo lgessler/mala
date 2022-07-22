@@ -5,4 +5,4 @@ git add .
 git commit -m 'update'
 git push
 git checkout master
-rmdir dist
+rm -rf dist
