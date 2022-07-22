@@ -5,23 +5,24 @@ const path = require('path')
 const fs = require('fs')
 
 function dataToPlugin(data) {
-
-
+  data.icon = data.icon || "default.png"
+  data.screenshot = data.screenshot || "default.png"
   return new HtmlWebpackPlugin({
     template: './src/page-app/tmpl.html',
     inject: true,
-    filename: `app/${data.slug}.html`,
+    chunks: ["app"],
+    filename: `${data.slug}.html`,
     templateParameters: data,
   })
 }
 function readData() {
   const dataDir = path.resolve(process.cwd(), 'src', 'data')
-  const paths = fs.readdirSync(dataDir).filter(f => f.endsWith('.json'))
+  const paths = fs.readdirSync(dataDir).filter(f => f.endsWith('.json') && !f.endsWith("_template.json"))
   const jsons = paths.map(fname => JSON.parse(fs.readFileSync(path.resolve(dataDir, fname), {encoding: "utf-8"})))
-  console.log(jsons)
   return jsons
 }
-const plugins = readData().map(d => dataToPlugin(d))
+const jsons = readData()
+const plugins = jsons.map(d => dataToPlugin(d))
 
 module.exports = {
 
@@ -35,6 +36,8 @@ module.exports = {
   // https://webpack.js.org/concepts/entry-points/#multi-page-application
   entry: {
     index: './src/page-index/main.js',
+    about: './src/page-about/main.js',
+    app: './src/page-app/main.js',
   },
 
   // https://webpack.js.org/configuration/dev-server/
@@ -64,13 +67,16 @@ module.exports = {
       },
       {
         // https://webpack.js.org/loaders/css-loader/#root
-        test: /\.css$/i,
-        use: ['style-loader', 'css-loader']
+        test: /\.css$|\.scss/i,
+        use: ['style-loader', 'css-loader', 'sass-loader']
       },
       {
         // https://webpack.js.org/guides/asset-modules/#resource-assets
         test: /\.(png|jpe?g|gif|svg)$/i,
-        type: 'asset/resource'
+        type: 'asset/resource',
+        generator: {
+          filename: 'static/[name][ext][query]'
+        }
       },
       {
         // https://webpack.js.org/guides/asset-modules/#replacing-inline-loader-syntax
@@ -88,13 +94,19 @@ module.exports = {
   // https://webpack.js.org/concepts/plugins/
   plugins: [
     new webpack.DefinePlugin({
-      // Any constants go here
+      APPS: JSON.stringify(jsons)
     }),
     new HtmlWebpackPlugin({
       template: './src/page-index/tmpl.html',
       inject: true,
       chunks: ['index'],
       filename: 'index.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/page-about/tmpl.html',
+      inject: true,
+      chunks: ['about'],
+      filename: 'about.html'
     }),
     ...plugins
   ]

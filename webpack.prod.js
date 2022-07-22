@@ -8,6 +8,28 @@ const TerserPlugin = require('terser-webpack-plugin')
 
 const buildPath = path.resolve(__dirname, 'dist')
 
+const fs = require('fs')
+
+function dataToPlugin(data) {
+  data.icon = data.icon || "default.png"
+  data.screenshot = data.screenshot || "default.png"
+  return new HtmlWebpackPlugin({
+    template: './src/page-app/tmpl.html',
+    inject: true,
+    chunks: ["app"],
+    filename: `${data.slug}.html`,
+    templateParameters: data,
+  })
+}
+function readData() {
+  const dataDir = path.resolve(process.cwd(), 'src', 'data')
+  const paths = fs.readdirSync(dataDir).filter(f => f.endsWith('.json') && !f.endsWith("_template.json"))
+  const jsons = paths.map(fname => JSON.parse(fs.readFileSync(path.resolve(dataDir, fname), {encoding: "utf-8"})))
+  return jsons
+}
+const jsons = readData()
+const plugins = jsons.map(d => dataToPlugin(d))
+
 module.exports = {
 
   // https://webpack.js.org/configuration/mode/
@@ -20,6 +42,8 @@ module.exports = {
   // https://webpack.js.org/concepts/entry-points/#multi-page-application
   entry: {
     index: './src/page-index/main.js',
+    about: './src/page-about/main.js',
+    app: './src/page-app/main.js',
   },
 
   // how to write the compiled files to disk
@@ -49,16 +73,20 @@ module.exports = {
       },
       {
         // https://webpack.js.org/loaders/css-loader/#root
-        test: /\.css$/i,
+        test: /\.css$|\.scss/i,
         use: [
           MiniCssExtractPlugin.loader,
-          'css-loader'
+          'css-loader',
+          'sass-loader'
         ]
       },
       {
         // https://webpack.js.org/guides/asset-modules/#resource-assets
         test: /\.(png|jpe?g|gif|svg)$/i,
-        type: 'asset/resource'
+        type: 'asset/resource',
+        generator: {
+          filename: 'static/[name][ext][query]'
+        }
       },
       {
         // https://webpack.js.org/guides/asset-modules/#replacing-inline-loader-syntax
@@ -76,7 +104,7 @@ module.exports = {
   // https://webpack.js.org/concepts/plugins/
   plugins: [
     new webpack.DefinePlugin({
-      // Any definitions go here
+      APPS: JSON.stringify(jsons)
     }),
     new HtmlWebpackPlugin({
       template: './src/page-index/tmpl.html',
@@ -84,10 +112,17 @@ module.exports = {
       chunks: ['index'],
       filename: 'index.html'
     }),
+    new HtmlWebpackPlugin({
+      template: './src/page-about/tmpl.html',
+      inject: true,
+      chunks: ['about'],
+      filename: 'about.html'
+    }),
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash].css',
       chunkFilename: '[id].[contenthash].css'
-    })
+    }),
+    ...plugins
   ],
 
   // https://webpack.js.org/configuration/optimization/

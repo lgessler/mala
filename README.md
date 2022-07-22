@@ -1,28 +1,18 @@
-Midas Loop UI
-=============
+# The Map of Applications for Linguistic Annotation
 
-# Usage
+MALA is a list of application software for use in annotating natural language texts.
+Please see [our homepage](https://lgessler.github.io/mala/about.html) for more information.
 
-## Prerequisites
+# Adding an Application
+If there is an application you would like to see listed in MALA, please either:
+- Open an issue describing the application on this repository 
+- Open a pull request with a new JSON [based on the template](./src/data/_template.json). 
+  Make sure your JSON validates properly by running `python scripts/validate_json.py`.
+  Refer to [scripts/validate_json.py](scripts/validate_json.py) for more information on the meanings of the JSON fields.
 
-- [Install `node` (comes with `npm`)](https://nodejs.org/). Suggested version expressed in [.nvmrc](./.nvmrc) file.
-- [Install `yarn`](https://yarnpkg.com/getting-started/install)
+# Acknowledgments 
+Some entries in MALA were derived from an existing list, [Annotationsaurus](https://github.com/mariananeves/annotation-tools).
 
-## Development
-
-- `yarn` - install dependencies
-- `yarn start` - start development server
-- `yarn test` - run minimal tests (eg: lint javascript files)
-
-### Adding a new page
-1. Make a new directory under `src` prefixed with `page-`, e.g. `src/page-login`, with at least a `tmpl.html`
-2. In both `webpack.dev.js` and `webpack.prod.js`, extend `module.exports.entry` and `module.plugins` appropriately.
-
-## Production
-
-- `yarn build` to prepare `html`, `css`, `js` files in `dist/` directory
-- `yarn preview` - run build and serve production files locally
-
-## Credits
-
-- Based on [webpack-static-html-pages](https://github.com/ivarprudnikov/webpack-static-html-pages)
+# Development
+- Prod build: `yarn build`
+- Dev server: `yarn start`

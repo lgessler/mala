@@ -2,18 +2,46 @@
 <html style="height:100%">
 
 <head>
-  <title></title>
+  <title>MALA | <%= name %></title>
   <%= require('../partials/head.html?raw') %>
 </head>
 
-<body class="d-flex flex-column h-100">
+<body>
   <%= require('../partials/nav.html?raw') %>
 
-  <%= name %>
-  <%= body %>
-  <img src="<%= require('../img/' + icon) %>">
+  <section class="section content container">
+    <img id="screenshot" src="<%= require('../img/' + screenshot) %>"
+      style="width: 500px; height: 100%; float: right; padding: 1em;">
+    <h1 class="h1 is-1"><%= name %></h1>
+    <p>
+      <%= description %>
+    </p>
 
-  <%= require('../partials/footer.html?raw') %>
+    <p>
+      <strong>Release year:</strong> <%= releaseYear %>
+    </p>
+    <p>
+      <strong>Paper:</strong> <span><a href="<%= paperUrl %>"><%= paperUrl ? paperUrl : "Not available" %></a></span>
+    </p>
+    <p>
+      <strong>Code:</strong> <span><a href="<%= codeUrl %>"><%= codeUrl ? codeUrl : "Not available" %></a></span>
+    </p>
+    <p>
+      <strong>Availability:</strong> <%= freeness %>
+    </p>
+    <p>
+      <strong>Data types:</strong> <%= !dataTypes.length ? 'None' : dataTypes.join(", ") %>
+    </p>
+    <p>
+      <strong>Import formats:</strong> <%= !importFormats.length ? 'None' : importFormats.join(", ") %>
+    </p>
+    <p>
+      <strong>Export formats:</strong> <%= !exportFormats.length ? 'None' : exportFormats.join(", ") %>
+    </p>
+    <p>
+      <strong>Keywords:</strong> <%= !keywords.length ? 'None' : keywords.join(", ") %>
+    </p>
+  </section>
 </body>
 
 </html>
