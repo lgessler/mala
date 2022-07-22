@@ -74,7 +74,8 @@ function DocumentList(props) {
         rowsPerPageOptions: [50, 100, 250, 500],
         print: false,
         search: false,
-        download: false
+        download: false,
+        responsive: "simple"
     };
 
     const apps = JSON.parse(JSON.stringify(APPS))
