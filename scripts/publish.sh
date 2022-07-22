@@ -1,7 +1,7 @@
 yarn build
 git checkout gh-pages
 mv dist/* .
-mv dist/static/* ./dist/static/
+mv dist/static/* ./static/
 git add .
 git commit -m 'update'
 git push
