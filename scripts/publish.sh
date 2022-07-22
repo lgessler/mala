@@ -1,6 +1,6 @@
 yarn build
 git checkout gh-pages
-git rm -rf *
+git rm -rf *.map *.js *.txt *.css
 mv dist/* .
 mv dist/static/* ./static/
 git add .
