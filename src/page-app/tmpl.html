@@ -41,7 +41,12 @@
     <p>
       <strong>Keywords:</strong> <%= !keywords.length ? 'None' : keywords.join(", ") %>
     </p>
+    <div id="disqus-root"></div>
+
+    <div style="display:none;">
+      <div id="name"><%= name %></div>
+      <div id="slug"><%= slug %></div>
+    </div>
   </section>
 </body>
-
 </html>
