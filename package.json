@@ -15,6 +15,7 @@
     "build": "webpack --config webpack.prod.js",
     "preview": "npm run build && npm run start:dist",
     "validate": "python scripts/validate_json.py",
+    "publish-ghpages": "bash scripts/publish.sh",
     "test": "standard"
   },
   "devDependencies": {
