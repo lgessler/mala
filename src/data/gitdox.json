@@ -10,7 +10,7 @@
   "importFormats": ["xml", "plaintext"],
   "exportFormats": ["xml", "csv"],
   "freeness": "open-source",
-  "keywords": ["multilayer"],
+  "keywords": ["multilayer", "semantics", "coreference"],
   "description": "Multilayer annotation editor featuring GitHub integration, realtime collaborative editing, and validation features.",
   "review": {
     "reviewer": null,
