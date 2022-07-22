@@ -1,0 +1,20 @@
+{
+  "name": "GitDox",
+  "slug": "gitdox",
+  "releaseYear": 2017,
+  "icon": null,
+  "screenshot": "gitdox_screenshot.png",
+  "paperUrl": "http://corpling.uis.georgetown.edu/amir/pdf/GitDOX_A_Linked_Version_Controlled_Online_XML_Editor_prepub.pdf",
+  "codeUrl": "https://corpling.uis.georgetown.edu/gitdox/",
+  "dataTypes": ["tei", "tags", "span-labels", "nested-span-labels"],
+  "importFormats": ["xml", "plaintext"],
+  "exportFormats": ["xml", "csv"],
+  "freeness": "open-source",
+  "keywords": ["multilayer"],
+  "description": "Multilayer annotation editor featuring GitHub integration, realtime collaborative editing, and validation features.",
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "body": null
+  }
+}

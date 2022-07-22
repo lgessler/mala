@@ -4,23 +4,26 @@ from jsonschema.protocols import Validator
 import os
 import sys
 
-data_formats = [
-    "plaintext",
-    "conllu",
-    "tsv",
-    "elan-xml",
-    "flex-xml",
-    "proprietary"
-]
-
 data_types = [
-    "interlinear",
+    "tei",
+    "tags",
     "time-aligned",
     "span-labels",
     "nested-span-labels",
     "constituency-tree",
     "dependency-tree",
     "graph",
+]
+
+data_formats = [
+    "plaintext",
+    "csv",
+    "xml",
+    "json",
+    "conllu",
+    "elan-xml",
+    "flex-xml",
+    "proprietary"
 ]
 
 schema = {

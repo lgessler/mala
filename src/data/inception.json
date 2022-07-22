@@ -1,0 +1,20 @@
+{
+  "name": "INCEpTION",
+  "slug": "inception",
+  "releaseYear": 2017,
+  "icon": null,
+  "screenshot": "inception_screenshot.png",
+  "paperUrl": "https://inception-project.github.io/publications/INCEpTION-COLING2018-Demo.pdf",
+  "codeUrl": "https://inception-project.github.io/",
+  "dataTypes": ["tags", "span-labels", "nested-span-labels", "dependency-tree", "graph"],
+  "importFormats": ["proprietary"],
+  "exportFormats": ["proprietary"],
+  "freeness": "open-source",
+  "keywords": ["multilayer"],
+  "description": "Highly configurable general-purpose annotation platform focused on semantics with workflow management features and NLP model integration",
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "body": null
+  }
+}
