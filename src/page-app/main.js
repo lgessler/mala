@@ -26,7 +26,7 @@ function Disqus(props) {
       shortname='lgessler-com'
       config={
         {
-          url: window.location.href,
+          url: props.url,
           identifier: "mala-app-" + props.slug,
           title: props.name,
           language: 'en_US'
@@ -41,7 +41,7 @@ function mount() {
   const root = ReactDOM.createRoot(mountPoint)
   const slug = document.getElementById("slug").innerText
   const name = document.getElementById("name").innerText
-  root.render(<Disqus slug={slug} name={name} />)
+  root.render(<Disqus slug={slug} name={name} url={window.location.href} />)
 }
 
 document.addEventListener('DOMContentLoaded', removePlaceholder)
