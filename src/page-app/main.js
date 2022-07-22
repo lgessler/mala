@@ -26,7 +26,7 @@ function Disqus(props) {
       shortname='lgessler-com'
       config={
         {
-          url: "/mala/" + props.slug + ".html",
+          url: window.location.href,
           identifier: "mala-app-" + props.slug,
           title: props.name,
           language: 'en_US'
