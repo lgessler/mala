@@ -10,7 +10,7 @@
   "importFormats": ["plaintext", "proprietary"],
   "exportFormats": ["proprietary"],
   "freeness": "open-source",
-  "keywords": [],
+  "keywords": ["ner", "nested-ner"],
   "description": "Collaborative web app with a configurable data model that can support span-based tasks such as (nested) entity recognition. Also features image labeling facilities.",
   "review": {
     "reviewer": null,

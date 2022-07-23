@@ -10,7 +10,7 @@
   "importFormats": ["plaintext"],
   "exportFormats": ["proprietary"],
   "freeness": "open-source",
-  "keywords": ["biomedical", "active-learning"],
+  "keywords": ["biomedical", "active-learning", "ner", "entity-linking"],
   "description": "Web app for medical NER and linking with integrated models for active learning support",
   "review": {
     "reviewer": null,

@@ -10,7 +10,7 @@
   "importFormats": ["plaintext", "proprietary"],
   "exportFormats": ["plaintext", "proprietary"],
   "freeness": "open-source",
-  "keywords": [],
+  "keywords": ["ner", "coreference", "ud"],
   "description": "Web app with a flexible schema focused on structured prediction tasks in NLP, including NER, coreference, UD syntax, and others.",
   "review": {
     "reviewer": null,

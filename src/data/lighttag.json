@@ -10,7 +10,7 @@
   "importFormats": ["plaintext"],
   "exportFormats": ["proprietary", "json", "xml"],
   "freeness": "commercial",
-  "keywords": [],
+  "keywords": ["ner", "nested-ner", "coreference", "annotation-management"],
   "description": "SAAS app for span- and relation-based tasks such as sentiment analysis, entity recognition, and coreference. Also has features for adjudication and reviewing of annotations.",
   "review": {
     "reviewer": null,

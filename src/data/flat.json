@@ -10,7 +10,7 @@
   "importFormats": ["proprietary"],
   "exportFormats": ["proprietary"],
   "freeness": "open-source",
-  "keywords": [],
+  "keywords": ["multilayer"],
   "description": "App for the FoLiA format, a comprehensive but rigid format for linguistic annotation, featuring collaborative editing and document versioning.",
   "review": {
     "reviewer": null,

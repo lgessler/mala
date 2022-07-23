@@ -10,7 +10,7 @@
   "importFormats": ["plaintext", "proprietary"],
   "exportFormats": ["proprietary"],
   "freeness": "open-source",
-  "keywords": ["biomedical"],
+  "keywords": ["biomedical", "ner"],
   "description": "Desktop app that supports entity annotation of biomedical texts featuring integration with major biomedical ontologies.",
   "review": {
     "reviewer": null,

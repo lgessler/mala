@@ -10,7 +10,7 @@
   "importFormats": ["json"],
   "exportFormats": ["json"],
   "freeness": "commercial",
-  "keywords": [],
+  "keywords": ["ner", "entity-linking"],
   "description": "Web app for tasks such as document classification, entity recognition and linking, and dependency parsing, with emphasis on customization with Python.",
   "review": {
     "reviewer": null,

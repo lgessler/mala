@@ -10,7 +10,7 @@
   "importFormats": ["plaintext", "json", "csv"],
   "exportFormats": ["json", "csv", "proprietary", "xml"],
   "freeness": "open-source",
-  "keywords": ["active-learning"],
+  "keywords": ["active-learning", "ner"],
   "description": "Web app with broad support for labeling text, audio, and images as well as online and active learning. Supports tasks such as NER, coreference, and translation.",
   "review": {
     "reviewer": null,

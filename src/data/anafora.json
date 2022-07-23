@@ -10,7 +10,7 @@
   "importFormats": ["xml", "proprietary"],
   "exportFormats": ["xml", "proprietary"],
   "freeness": "open-source",
-  "keywords": ["coreference"],
+  "keywords": ["coreference", "ner"],
   "description": "Web app for non-nested entity annotations and relations between them (e.g. for coreference), with adjudication features and a modular data model.",
   "review": {
     "reviewer": null,

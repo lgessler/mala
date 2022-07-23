@@ -10,7 +10,7 @@
   "importFormats": ["csv", "proprietary"],
   "exportFormats": ["csv"],
   "freeness": "open-source",
-  "keywords": ["active-learning"],
+  "keywords": ["active-learning", "annotation-management"],
   "description": "Web app specialized exclusively in document classification which features active learning support, annotator metrics, and other management facilities.",
   "review": {
     "reviewer": null,
