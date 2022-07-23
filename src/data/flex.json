@@ -1,0 +1,20 @@
+{
+  "name": "FLEx",
+  "slug": "flex",
+  "releaseYear": 2006,
+  "icon": "flex_icon.png",
+  "screenshot": "flex_screenshot.png",
+  "paperUrl": "https://www.sil.org/resources/archives/7793",
+  "codeUrl": "https://github.com/sillsdev/FieldWorks",
+  "dataTypes": ["tags", "chunk-spans"],
+  "importFormats": ["proprietary", "flex-xml"],
+  "exportFormats": ["proprietary", "flex-xml", "elan-xml"],
+  "freeness": "open-source",
+  "keywords": ["language-documentation"],
+  "description": "Desktop app for field linguists focused on interlinear annotations, translation, and dictionary making with morphological parsing features.",
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "body": null
+  }
+}

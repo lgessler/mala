@@ -64,9 +64,9 @@ schema = {
         # Is the code free and open-source, free and closed-source, or commercial?
         "freeness": {"type": "string", "pattern": "open-source|closed-source|commercial"},
         # An arbitrary list of keywords
-        "keywords": {"type": "array", "contains": {"type": "string"}},
+        "keywords": {"type": "array"},
         # A short (few sentences) description of the app and what it's for.
-        "description": {"type": "string"},
+        "description": {"type": "string", "maxLength": 180},
         # A longer review of the app
         "review": {
             "type": "object",

@@ -10,7 +10,7 @@
   "importFormats": [],
   "exportFormats": ["proprietary"],
   "freeness": "open-source",
-  "keywords": ["web"],
+  "keywords": [],
   "description": "Firefox plugin that enables direct in-browser annotation, allowing annotation of spans with key-value attribute pairs.",
   "review": {
     "reviewer": null,

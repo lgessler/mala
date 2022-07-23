@@ -1,0 +1,20 @@
+{
+  "name": "ELAN",
+  "slug": "elan",
+  "releaseYear": 2004,
+  "icon": "elan_icon.png",
+  "screenshot": "elan_screenshot.png",
+  "paperUrl": "https://aclanthology.org/L04-1285/",
+  "codeUrl": "https://archive.mpi.nl/tla/elan/download",
+  "dataTypes": ["tags", "time-aligned", "chunk-spans", "overlapping-spans"],
+  "importFormats": ["elan-xml", "flex-xml", "plaintext", "csv", "json", "xml", "proprietary"],
+  "exportFormats": ["elan-xml", "flex-xml", "plaintext", "csv", "json", "xml", "proprietary"],
+  "freeness": "closed-source",
+  "keywords": ["language-documentation"],
+  "description": "For texts time-aligned to audio and video, featuring a modular data model and wide import/export support.",
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "body": null
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Anafora",
+  "slug": "anafora",
+  "releaseYear": 2013,
+  "icon": "anafora_icon.png",
+  "screenshot": "anafora_screenshot.png",
+  "paperUrl": "https://aclanthology.org/N13-3004/",
+  "codeUrl": "https://github.com/weitechen/anafora",
+  "dataTypes": ["chunk-spans", "graph"],
+  "importFormats": ["xml", "proprietary"],
+  "exportFormats": ["xml", "proprietary"],
+  "freeness": "open-source",
+  "keywords": ["coreference"],
+  "description": "Web app for non-nested entity annotations and relations between them (e.g. for coreference), with adjudication features and a modular data model.",
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "body": null
+  }
+}
