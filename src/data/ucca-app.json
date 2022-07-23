@@ -11,7 +11,7 @@
   "exportFormats": ["proprietary"],
   "freeness": "open-source",
   "keywords": ["semantics"],
-  "description": "Annotation app for the UCCA semantic representation.",
+  "description": "Web app for the UCCA semantic representation.",
   "review": {
     "reviewer": null,
     "date": null,

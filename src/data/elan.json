@@ -11,7 +11,7 @@
   "exportFormats": ["elan-xml", "flex-xml", "plaintext", "csv", "json", "xml", "proprietary"],
   "freeness": "closed-source",
   "keywords": ["language-documentation"],
-  "description": "For texts time-aligned to audio and video, featuring a modular data model and wide import/export support.",
+  "description": "Desktop app for texts time-aligned to audio and video, featuring a modular data model and wide import/export support.",
   "review": {
     "reviewer": null,
     "date": null,

@@ -11,7 +11,7 @@
   "exportFormats": ["proprietary"],
   "freeness": "open-source",
   "keywords": ["discourse"],
-  "description": "Annotation app for the Rhetorical Structure Theory formalism.",
+  "description": "Web annotation app for the Rhetorical Structure Theory formalism.",
   "review": {
     "reviewer": null,
     "date": null,

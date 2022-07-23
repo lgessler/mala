@@ -11,7 +11,7 @@
   "exportFormats": ["xml", "csv", "tei"],
   "freeness": "open-source",
   "keywords": ["multilayer"],
-  "description": "Multilayer annotation editor featuring GitHub integration, realtime collaborative editing, and validation features.",
+  "description": "Multilayer annotation web app featuring GitHub integration, realtime collaborative editing, and validation features.",
   "review": {
     "reviewer": null,
     "date": null,
