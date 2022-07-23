@@ -83,7 +83,8 @@ function DocumentList(props) {
         print: false,
         search: false,
         download: false,
-        responsive: "simple"
+        responsive: "simple",
+        elevation: 0
     };
 
     const apps = JSON.parse(JSON.stringify(APPS))
