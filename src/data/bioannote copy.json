@@ -1,0 +1,20 @@
+{
+  "name": "CATMA",
+  "slug": "catma",
+  "releaseYear": 2009,
+  "icon": "catma_icon.jpg",
+  "screenshot": "catma_screenshot.png",
+  "paperUrl": "https://doi.org/10.1080/07317131.2013.788370",
+  "codeUrl": "https://github.com/forTEXT/catma",
+  "dataTypes": ["chunk-spans", "overlapping-spans"],
+  "importFormats": ["plaintext"],
+  "exportFormats": ["tei", "json"],
+  "freeness": "open-source",
+  "keywords": ["digital-humanities"],
+  "description": "Web application for literary analysis focused on categorized spans with some accompanying analysis facilities.",
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "body": null
+  }
+}
