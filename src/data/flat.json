@@ -1,0 +1,20 @@
+{
+  "name": "FLAT",
+  "slug": "flat",
+  "releaseYear": 2016,
+  "icon": null,
+  "screenshot": "flat_screenshot.jpg",
+  "paperUrl": null,
+  "codeUrl": "https://github.com/proycon/flat",
+  "dataTypes": ["tags", "chunk-spans", "overlapping-spans", "constituency-tree"],
+  "importFormats": ["proprietary"],
+  "exportFormats": ["proprietary"],
+  "freeness": "open-source",
+  "keywords": [],
+  "description": "App for the FoLiA format, a comprehensive but rigid format for linguistic annotation, featuring collaborative editing and document versioning.",
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "body": null
+  }
+}

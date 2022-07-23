@@ -1,0 +1,20 @@
+{
+  "name": "GraPAT",
+  "slug": "grapat",
+  "releaseYear": 2014,
+  "icon": null,
+  "screenshot": "grapat_screenshot.jpg",
+  "paperUrl": "https://aclanthology.org/L14-1636/",
+  "codeUrl": "https://github.com/discourse-lab/GraPAT",
+  "dataTypes": ["graph"],
+  "importFormats": ["plaintext"],
+  "exportFormats": ["proprietary"],
+  "freeness": "open-source",
+  "keywords": ["discourse"],
+  "description": "Web app for graph-based formalisms for discourse structure and relation-based sentiment analysis.",
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "body": null
+  }
+}
