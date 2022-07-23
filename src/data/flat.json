@@ -3,7 +3,7 @@
   "slug": "flat",
   "releaseYear": 2016,
   "icon": null,
-  "screenshot": "flat_screenshot.jpg",
+  "screenshot": "flat_screenshot.png",
   "paperUrl": null,
   "codeUrl": "https://github.com/proycon/flat",
   "dataTypes": ["tags", "chunk-spans", "overlapping-spans", "constituency-tree"],
