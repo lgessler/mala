@@ -1,0 +1,20 @@
+{
+  "name": "MedCATTrainer",
+  "slug": "medcattrainer",
+  "releaseYear": 2019,
+  "icon": "medcattrainer_icon.png",
+  "screenshot": "medcattrainer_screenshot.png",
+  "paperUrl": "https://aclanthology.org/E12-2021/",
+  "codeUrl": "https://github.com/CogStack/MedCATtrainer",
+  "dataTypes": ["chunk-spans", "graph"],
+  "importFormats": ["plaintext"],
+  "exportFormats": ["proprietary"],
+  "freeness": "open-source",
+  "keywords": ["biomedical", "active-learning"],
+  "description": "Web app for medical NER and linking with integrated models for active learning support",
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "body": null
+  }
+}
