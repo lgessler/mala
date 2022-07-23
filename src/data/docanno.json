@@ -1,0 +1,20 @@
+{
+  "name": "docanno",
+  "slug": "docanno",
+  "releaseYear": 2018,
+  "icon": "docanno_icon.png",
+  "screenshot": "docanno_screenshot.png",
+  "paperUrl": null,
+  "codeUrl": "https://github.com/doccano/doccano",
+  "dataTypes": ["chunk-spans", "overlapping-spans"],
+  "importFormats": ["plaintext", "proprietary"],
+  "exportFormats": ["proprietary"],
+  "freeness": "open-source",
+  "keywords": [],
+  "description": "Collaborative web app with a configurable data model that can support span-based tasks such as (nested) entity recognition. Also features image labeling facilities.",
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "body": null
+  }
+}
