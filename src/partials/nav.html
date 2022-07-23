@@ -4,9 +4,14 @@
       <a class="navbar-item" href="./">
         <span><strong>MALA</strong></span>
       </a>
+      <a id="burger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarStart">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
     </div>
 
-    <div id="navbarBasicExample" class="navbar-menu">
+    <div id="navbarStart" class="navbar-menu">
       <div class="navbar-start">
         <a class="navbar-item" href="./about.html">
           About
@@ -17,4 +22,16 @@
       </div>
     </div>
   </nav>
+
+  <script>
+    // Handle mobile
+    document.addEventListener('DOMContentLoaded', () => {
+      const burger = document.getElementById("burger")
+      burger.addEventListener("click", () => {
+        const target = document.getElementById(burger.dataset.target)
+        burger.classList.toggle("is-active")
+        target.classList.toggle("is-active")
+      })
+    })
+  </script>
 </header>
