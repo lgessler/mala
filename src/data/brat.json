@@ -1,0 +1,20 @@
+{
+  "name": "brat",
+  "slug": "brat",
+  "releaseYear": 2012,
+  "icon": null,
+  "screenshot": "brat_screenshot.png",
+  "paperUrl": "https://aclanthology.org/E12-2021/",
+  "codeUrl": "https://github.com/nlplab/brat",
+  "dataTypes": ["tags", "chunk-spans", "overlapping-spans", "dependency-tree", "graph"],
+  "importFormats": ["plaintext", "proprietary"],
+  "exportFormats": ["plaintext", "proprietary"],
+  "freeness": "open-source",
+  "keywords": [],
+  "description": "Web app with a flexible schema focused on structured prediction tasks in NLP, including NER, coreference, UD syntax, and others.",
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "body": null
+  }
+}
