@@ -6,7 +6,7 @@
   "screenshot": "gitdox_screenshot.png",
   "paperUrl": "http://corpling.uis.georgetown.edu/amir/pdf/GitDOX_A_Linked_Version_Controlled_Online_XML_Editor_prepub.pdf",
   "codeUrl": "https://corpling.uis.georgetown.edu/gitdox/",
-  "dataTypes": ["tei", "tags", "span-labels", "nested-span-labels"],
+  "dataTypes": ["tei", "tags", "chunk-spans", "overlapping-spans"],
   "importFormats": ["xml", "plaintext"],
   "exportFormats": ["xml", "csv"],
   "freeness": "open-source",

@@ -6,7 +6,7 @@
   "screenshot": "webannotator_screenshot.png",
   "paperUrl": "http://www.lrec-conf.org/proceedings/lrec2012/pdf/148_Paper.pdf",
   "codeUrl": "http://xavier.tannier.free.fr/misc/WebAnnotator",
-  "dataTypes": ["span-labels"],
+  "dataTypes": ["chunk-spans"],
   "importFormats": [],
   "exportFormats": ["proprietary"],
   "freeness": "open-source",

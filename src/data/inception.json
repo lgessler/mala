@@ -6,7 +6,7 @@
   "screenshot": "inception_screenshot.png",
   "paperUrl": "https://inception-project.github.io/publications/INCEpTION-COLING2018-Demo.pdf",
   "codeUrl": "https://inception-project.github.io/",
-  "dataTypes": ["tags", "span-labels", "nested-span-labels", "dependency-tree", "graph"],
+  "dataTypes": ["tags", "chunk-spans", "overlapping-spans", "dependency-tree", "graph"],
   "importFormats": ["proprietary"],
   "exportFormats": ["proprietary"],
   "freeness": "open-source",
