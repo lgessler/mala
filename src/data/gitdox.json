@@ -8,7 +8,7 @@
   "codeUrl": "https://corpling.uis.georgetown.edu/gitdox/",
   "dataTypes": ["tei", "tags", "chunk-spans", "overlapping-spans"],
   "importFormats": ["xml", "plaintext"],
-  "exportFormats": ["xml", "csv"],
+  "exportFormats": ["xml", "csv", "tei"],
   "freeness": "open-source",
   "keywords": ["multilayer"],
   "description": "Multilayer annotation editor featuring GitHub integration, realtime collaborative editing, and validation features.",

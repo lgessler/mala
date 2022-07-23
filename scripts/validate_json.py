@@ -19,11 +19,12 @@ data_formats = [
     "plaintext",
     "csv",
     "xml",
+    "tei",
     "json",
     "conllu",
     "elan-xml",
     "flex-xml",
-    "proprietary"
+    "proprietary",
 ]
 
 schema = {
