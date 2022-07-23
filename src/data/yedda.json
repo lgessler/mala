@@ -1,0 +1,20 @@
+{
+  "name": "YEDDA",
+  "slug": "yedda",
+  "releaseYear": 2018,
+  "icon": null,
+  "screenshot": "yedda_screenshot.png",
+  "paperUrl": "https://aclanthology.org/P18-4006/",
+  "codeUrl": "https://github.com/jiesutd/YEDDA",
+  "dataTypes": ["chunk-spans"],
+  "importFormats": ["plaintext"],
+  "exportFormats": ["proprietary"],
+  "freeness": "open-source",
+  "keywords": [],
+  "description": "Barebones desktop app aimed at streamlined non-nested NER with keyboard shortcuts. Also includes some inter-annotator analysis facilities.",
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "body": null
+  }
+}
