@@ -1,0 +1,20 @@
+{
+  "name": "LightTag",
+  "slug": "lighttag",
+  "releaseYear": 2014,
+  "icon": null,
+  "screenshot": "lighttag_screenshot.png",
+  "paperUrl": null,
+  "codeUrl": "https://www.lighttag.io/",
+  "dataTypes": ["chunk-spans", "overlapping-spans", "graph"],
+  "importFormats": ["plaintext"],
+  "exportFormats": ["proprietary", "json", "xml"],
+  "freeness": "commercial",
+  "keywords": [],
+  "description": "SAAS app for span- and relation-based tasks such as sentiment analysis, entity recognition, and coreference. Also has features for adjudication and reviewing of annotations.",
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "body": null
+  }
+}

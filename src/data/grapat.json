@@ -3,7 +3,7 @@
   "slug": "grapat",
   "releaseYear": 2014,
   "icon": null,
-  "screenshot": "grapat_screenshot.jpg",
+  "screenshot": "grapat_screenshot.png",
   "paperUrl": "https://aclanthology.org/L14-1636/",
   "codeUrl": "https://github.com/discourse-lab/GraPAT",
   "dataTypes": ["graph"],
