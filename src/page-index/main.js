@@ -98,7 +98,7 @@ function DocumentList(props) {
 
     return (
         <MUIDataTable
-            title={"The Map of Applications for Linguistic Annotation"}
+            title={<h3 class="title is-3">Map of Applications for Linguistic Annotation</h3>}
             data={apps}
             columns={columns}
             options={options}
