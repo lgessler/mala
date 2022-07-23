@@ -1,4 +1,4 @@
-yarn build
+#yarn build
 git checkout gh-pages
 git rm -rf *.map *.js *.txt *.css
 rm -rf static

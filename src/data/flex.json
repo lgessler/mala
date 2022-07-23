@@ -3,7 +3,7 @@
   "slug": "flex",
   "releaseYear": 2006,
   "icon": "flex_icon.png",
-  "screenshot": "flex_screenshot.png",
+  "screenshot": "flex_screenshot.jpg",
   "paperUrl": "https://www.sil.org/resources/archives/7793",
   "codeUrl": "https://github.com/sillsdev/FieldWorks",
   "dataTypes": ["tags", "chunk-spans"],
