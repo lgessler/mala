@@ -1,0 +1,20 @@
+{
+  "name": "SMART",
+  "slug": "smart",
+  "releaseYear": 2019,
+  "icon": "smart_icon.png",
+  "screenshot": "smart_screenshot.png",
+  "paperUrl": "https://jmlr.org/papers/v20/18-859.html",
+  "codeUrl": "https://github.com/RTIInternational/SMART",
+  "dataTypes": ["chunk-spans"],
+  "importFormats": ["csv", "proprietary"],
+  "exportFormats": ["csv"],
+  "freeness": "open-source",
+  "keywords": ["active-learning"],
+  "description": "Web app specialized exclusively in document classification which features active learning support, annotator metrics, and other management facilities.",
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "body": null
+  }
+}
