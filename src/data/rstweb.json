@@ -1,0 +1,20 @@
+{
+  "name": "rstWeb",
+  "slug": "rstweb",
+  "releaseYear": 2016,
+  "icon": null,
+  "screenshot": "rstweb_screenshot.png",
+  "paperUrl": "https://aclanthology.org/N16-3001/",
+  "codeUrl": "https://github.com/amir-zeldes/rstWeb",
+  "dataTypes": ["graph"],
+  "importFormats": ["plaintext", "proprietary"],
+  "exportFormats": ["proprietary"],
+  "freeness": "open-source",
+  "keywords": ["discourse"],
+  "description": "Annotation app for the Rhetorical Structure Theory formalism.",
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "body": null
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Label Studio",
+  "slug": "label-studio",
+  "releaseYear": 2020,
+  "icon": null,
+  "screenshot": "label-studio_screenshot.png",
+  "paperUrl": null,
+  "codeUrl": "https://github.com/heartexlabs/label-studio",
+  "dataTypes": ["chunk-spans", "graph"],
+  "importFormats": ["plaintext", "json", "csv"],
+  "exportFormats": ["json", "csv", "proprietary", "xml"],
+  "freeness": "open-source",
+  "keywords": ["active-learning"],
+  "description": "Web app with broad support for labeling text, audio, and images as well as online and active learning. Supports tasks such as NER, coreference, and translation.",
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "body": null
+  }
+}

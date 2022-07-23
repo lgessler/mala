@@ -1,0 +1,20 @@
+{
+  "name": "UCCA-App",
+  "slug": "ucca-app",
+  "releaseYear": 2017,
+  "icon": null,
+  "screenshot": null,
+  "paperUrl": null,
+  "codeUrl": "https://github.com/omriabnd/UCCA-App",
+  "dataTypes": ["graph"],
+  "importFormats": ["plaintext"],
+  "exportFormats": ["proprietary"],
+  "freeness": "open-source",
+  "keywords": ["semantics"],
+  "description": "Annotation app for the UCCA semantic representation.",
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "body": null
+  }
+}
