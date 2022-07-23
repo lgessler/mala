@@ -1,0 +1,20 @@
+{
+  "name": "Prodigy",
+  "slug": "prodigy",
+  "releaseYear": 2014,
+  "icon": null,
+  "screenshot": "prodigy_screenshot.png",
+  "paperUrl": null,
+  "codeUrl": "https://prodi.gy/",
+  "dataTypes": ["chunk-spans", "dependency-tree", "graph"],
+  "importFormats": ["json"],
+  "exportFormats": ["json"],
+  "freeness": "commercial",
+  "keywords": [],
+  "description": "Web app for tasks such as document classification, entity recognition and linking, and dependency parsing, with emphasis on customization with Python.",
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "body": null
+  }
+}
