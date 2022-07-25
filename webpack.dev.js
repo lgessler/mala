@@ -72,7 +72,7 @@ module.exports = {
       },
       {
         // https://webpack.js.org/guides/asset-modules/#resource-assets
-        test: /\.(png|jpe?g|gif|svg)$/i,
+        test: /\.(png|jpe?g|gif|svg|webp)$/i,
         type: 'asset/resource',
         generator: {
           filename: 'static/[name][ext][query]'
