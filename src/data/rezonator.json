@@ -1,0 +1,20 @@
+{
+  "name": "Rezonator",
+  "slug": "rezonator",
+  "releaseYear": 2021,
+  "icon": rezonator-icon.png,
+  "screenshot": rezonator.webp,
+  "paperUrl": "http://semdial.org/anthology/Z20-Bois_semdial_0031.pdf",
+  "codeUrl": "https://github.com/johnwdubois/rezonator",
+  "dataTypes": ["tags", "time-aligned", "overlapping-spans", "dependency-tree", "graph"],
+  "importFormats": ["plaintext", "json", "conllu", "csv"],
+  "exportFormats": ["json", "csv"],
+  "freeness": "open-source",
+  "keywords": ["multilayer", "discourse", "coreference", "resonance"],
+  "description": "Desktop app that supports import of any data, primarily spoken, formatted into lines, and particularly geared towards annotation and visualisation of coreference, dialogic resonance and dependency structure, including dependencies between larger spans of tokens. Some automatic annotation may be done with the R package RezonateR.",
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "body": null
+  }
+}
