@@ -13,6 +13,19 @@ If there is an application you would like to see listed in MALA, please either:
 # Acknowledgments 
 Some entries in MALA were derived from an existing list, [Annotationsaurus](https://github.com/mariananeves/annotation-tools).
 
+# Citing
+If you want to cite MALA in your work, please use the following BibTeX entry:
+
+```
+@misc{gessler-2022-mala,
+  title={{MALA}: The Map of Applications for Linguistic Annotation},
+  url={https://github.com/lgessler/mala},
+  note={Software available from https://github.com/lgessler/mala},
+  author={Luke Gessler},
+  year={2022},
+}
+```
+
 # Development
 - Prod build: `yarn build`
 - Dev server: `yarn start`
