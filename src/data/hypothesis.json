@@ -10,7 +10,7 @@
   "importFormats": ["json"],
   "exportFormats": ["json"],
   "freeness": "open-source",
-  "keywords": [],
+  "keywords": ["digital-humanities"],
   "description": "Web app with public server for collaboratively annotating any website with other users by highlighting text and writing messages using a browser extension.",
   "review": {
     "reviewer": null,
