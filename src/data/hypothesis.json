@@ -1,0 +1,20 @@
+{
+  "name": "Hypothesis",
+  "slug": "hypothesis",
+  "releaseYear": 2013,
+  "icon": "hypothesis_icon.png",
+  "screenshot": "hypothesis_screenshot.png",
+  "paperUrl": null,
+  "codeUrl": "https://github.com/hypothesis",
+  "dataTypes": ["chunk-spans", "overlapping-spans"],
+  "importFormats": ["json"],
+  "exportFormats": ["json"],
+  "freeness": "open-source",
+  "keywords": [],
+  "description": "Web app with public server for collaboratively annotating any website with other users by highlighting text and writing messages.",
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "body": null
+  }
+}
