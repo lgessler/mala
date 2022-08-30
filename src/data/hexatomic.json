@@ -1,0 +1,20 @@
+{
+  "name": "Hexatomic",
+  "slug": "hexatomic",
+  "releaseYear": 2022,
+  "icon": null,
+  "screenshot": "hexatomic_screenshot.png",
+  "paperUrl": null,
+  "codeUrl": "https://github.com/hexatomic/hexatomic",
+  "dataTypes": ["tags", "time-aligned", "chunk-spans", "overlapping-spans", "constituency-tree", "dependency-tree", "graph"],
+  "importFormats": ["plaintext", "xml"],
+  "exportFormats": ["xml"],
+  "freeness": "open-source",
+  "keywords": ["multilayer", "discourse", "coreference", "resonance"],
+  "description": "Cross-platoform desktop app for extensible multi-layer annotation (e.g., graph, grid) on arbitrary annotation types. Support for ANNIS and multiple import and export formats.",
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "body": null
+  }
+}
