@@ -11,7 +11,7 @@
   "exportFormats": ["xml"],
   "freeness": "open-source",
   "keywords": ["multilayer", "discourse", "coreference", "resonance"],
-  "description": "Cross-platoform desktop app for extensible multi-layer annotation (e.g., graph, grid) on arbitrary annotation types. Support for ANNIS and multiple import and export formats.",
+  "description": "Cross-platform desktop app for extensible multi-layer annotation (e.g., graph, grid) on arbitrary annotation types. Support for ANNIS and multiple import and export formats.",
   "review": {
     "reviewer": null,
     "date": null,
